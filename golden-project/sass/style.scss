@@ -1,0 +1,80 @@
+/* Variables */
+/*Global*/
+*, *::before, *::after {
+    box-sizing: border-box; }
+  
+  body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1140px; }
+  
+  
+  .splash {
+    background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+  }
+      
+  .splash-inner {
+    margin: auto;
+    max-width: 70%;
+    font-size: 16px; 
+    min-height: 500px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    right: auto;
+    bottom: auto; }
+
+  .services-top h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+      
+.services-top p {
+``` font-family: 'Droid Serif', serif;
+    font-size: 16px;
+  ``font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+  }
+      
+ .services-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 24px;
+      }
+      
+ .services-content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777;
+ }
+      
+      
+  i.fas {
+  color: white;
+  background: #fed136;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.portfolio {
+  background: #eff2f5; 
+}      
+        
