@@ -28,7 +28,7 @@
 
   
   .page-title {
-    font-family: Droid Serif Italic;
+    font-family: 'Droid Serif Italic';
     font-weight: bold;
     font-size: 40px;
   }
@@ -71,7 +71,7 @@
  }
       
       
-  i.fas {
+  .services-content i.fas {
   color: white;
   background: #fed136;
   width: 100px;
@@ -84,5 +84,39 @@
 
 .portfolio {
   background: #eff2f5; 
-}      
+} 
+
+.h1 {
+  font-family: 'Monserrat';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h2 {
+  font-family: 'Droit Serif Italic';
+  font-size: 16px; 
+}
+.card-title { 
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold; 
+
+}
+
+.card-title h4 {
+  font-family: 'Droit Serif Italic';
+  font-size: 14px;  
+}
+
+.footer-item {
+  font-family:'Montserrat';
+  font-size: 14px;
+
+}
+
+i.fas {
+  weight: 40%;
+  height: 40%;
+
+}
         
