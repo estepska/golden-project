@@ -1,27 +1,34 @@
 
-/*Global*/
-*, *::before, *::after {
-    box-sizing: border-box; }
-  
-  body {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.7;
-  }
-  
-  .container {
-    padding: 0 20px;
-    margin: 0 auto;
-    max-width: 1140px; }
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
 
-  .nav-item text-warning {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+
+.nav-item text-warning {
     font-family: Wisdom-Script;
   }
   
   
   .splash-img {
     background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
-    background-position: center;
+    position: absolute;
+    display: flex;
+
     background-size: cover;
     background-attachment: fixed; 
     position: relative;}
@@ -115,7 +122,6 @@
 }
 
 i.fas {
-  weight: 40%;
   height: 40%;
 
 }
